@@ -1,0 +1,49 @@
+.CreateTodoButton{
+    position:   fixed;
+    
+    bottom: 30px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 100%;
+    background: #FFC958;
+    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    animation: efectoDesactive .2s linear none;
+}
+.CreateTodoButton:hover{
+    cursor: pointer;
+    background: #ffca5875;
+    animation: efectoActive .2s linear forwards;
+    transform:rotate(0deg);
+}
+
+@keyframes efectoActive {
+    from {
+        transform:rotate(0deg);    
+        width: 65px;
+        height: 65px;
+    }
+    to {
+        transform:rotate(90deg);
+        width: 70px;
+        height: 70px;
+    }
+  }
+@keyframes efectoDesactive {
+    from {
+        transform:rotate(0deg);    
+        width: 70px;
+        height: 70px;
+    }
+    to {
+        transform:rotate(90deg);
+        width: 60px;
+        height: 60px;
+    }
+  }

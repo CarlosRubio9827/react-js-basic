@@ -1,0 +1,16 @@
+.TodoSearch{
+    border: none;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: gray;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    background: white;
+    border-radius: 10px;
+}    
+
+.TodoSearch:focus{
+    outline-color: #ff9900;
+}

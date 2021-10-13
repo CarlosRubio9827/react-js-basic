@@ -1,0 +1,59 @@
+.TodoItem{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 5px 0 10px 0px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    /* padding: 0 10px; */
+    position: relative;
+}
+.TodoItem:hover{
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+}
+.TodoItem-check{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    transform: rotate(180deg);
+    font-size: 2rem;
+    color: black;
+    margin: auto;
+    height: 30px;
+}
+.TodoItem-check-completed{
+    color: green;
+}
+.TodoItem-check:hover{
+    color: green;
+    cursor: pointer;
+}
+.TodoItem-name{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+    max-width: 80%;
+    text-align: center;
+}
+
+.TodoItem-name-completed{
+    
+    text-decoration: line-through;
+}
+
+.TodoItem-close{
+    position: absolute;
+    font-size: 1.6rem;
+    top: -13px;
+    right: -8px;
+}
+
+.TodoItem-close:hover{
+    color: red;
+    cursor: pointer;
+}
