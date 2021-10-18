@@ -1,10 +1,10 @@
 import React from 'react';
 import './CreateTodoButton.css';
 
-function CreateTodoButton() {
+function CreateTodoButton(props) {
 
-    const onClickButton = (msg) => {
-        alert(msg)
+    const onClickButton = () => {
+        props.setOpenModal(prevState => !prevState)
     }
 
 
@@ -12,10 +12,7 @@ function CreateTodoButton() {
         <button
             className="CreateTodoButton"
             type="button"
-            onClick={() => {
-                    onClickButton("Ejemplo de click")
-                }
-            }
+            onClick={ onClickButton }
         >
             +
         </button>

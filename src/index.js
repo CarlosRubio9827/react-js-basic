@@ -7,4 +7,5 @@ import App from './App/index';
 ReactDOM.render(
   <App />,
   document.getElementById('root')
-);
+  );
+
