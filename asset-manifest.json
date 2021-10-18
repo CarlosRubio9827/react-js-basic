@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-js-basic/static/css/main.dbbdb381.chunk.css",
+    "main.js": "/react-js-basic/static/js/main.ad6388dc.chunk.js",
+    "main.js.map": "/react-js-basic/static/js/main.ad6388dc.chunk.js.map",
+    "runtime-main.js": "/react-js-basic/static/js/runtime-main.e5f78bee.js",
+    "runtime-main.js.map": "/react-js-basic/static/js/runtime-main.e5f78bee.js.map",
+    "static/js/2.37e152b4.chunk.js": "/react-js-basic/static/js/2.37e152b4.chunk.js",
+    "static/js/2.37e152b4.chunk.js.map": "/react-js-basic/static/js/2.37e152b4.chunk.js.map",
+    "index.html": "/react-js-basic/index.html",
+    "precache-manifest.46853c913a412398d59d94732ce1118c.js": "/react-js-basic/precache-manifest.46853c913a412398d59d94732ce1118c.js",
+    "service-worker.js": "/react-js-basic/service-worker.js",
+    "static/css/main.dbbdb381.chunk.css.map": "/react-js-basic/static/css/main.dbbdb381.chunk.css.map",
+    "static/js/2.37e152b4.chunk.js.LICENSE.txt": "/react-js-basic/static/js/2.37e152b4.chunk.js.LICENSE.txt",
+    "static/media/NavBar.css": "/react-js-basic/static/media/Logo.cbc2e0d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5f78bee.js",
+    "static/js/2.37e152b4.chunk.js",
+    "static/css/main.dbbdb381.chunk.css",
+    "static/js/main.ad6388dc.chunk.js"
+  ]
+}
